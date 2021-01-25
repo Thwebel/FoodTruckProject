@@ -12,6 +12,7 @@ public class FoodTruckApp {
 		FoodTruck[] foodTruckFleet = new FoodTruck[5];
 		foodTruckFleet = foodTruckFleetCreator();
 		runOptions(foodTruckFleet);
+		System.out.println("\nThank you for all the help! Now go reward your hard labors with some real food.\uD83D\uDC4B");
 	}
 
 	private void menu() {
@@ -20,7 +21,7 @@ public class FoodTruckApp {
 		System.out.println("|   Select by entering 1, 2, 3, or 4   |");
 		System.out.println("|--------------------------------------|");
 		System.out.println("|1.) Display Food Truck Fleet.         |");
-		System.out.println("|2.) See average food truck raiting.   |");
+		System.out.println("|2.) See average food truck rating.    |");
 		System.out.println("|3.) Display highest rated food truck. |");
 		System.out.println("|4.) Quit.                             |");
 		System.out.println("----------------------------------------");
